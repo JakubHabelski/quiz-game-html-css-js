@@ -1,0 +1,45 @@
+body{
+    background-image: url("tactile_noise.webp");
+    color:white;
+    text-align: center;  
+}
+#f1logo{
+    height: 100px;
+}
+#container{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+    height: 100%;
+    font-family: 'formula1-display-wide-', sans-serif;
+ }
+
+#question{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;    
+    height: 100px;
+    border: 1px solid rgb(81, 14, 108);
+    background-color: rgb(57, 86, 128);
+    border-radius: 10px;
+    
+}
+#buttons > *{
+    width: 49.3%;        
+    height: 100px;
+    border: 1px solid green;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family:Tahoma ;
+}
+
+
+@media (max-width: 1051px) {
+    #buttons > *{
+        width: 48.3%;
+        
+    }
+}
